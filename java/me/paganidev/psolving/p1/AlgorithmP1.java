@@ -9,6 +9,7 @@ import java.util.stream.Stream;
 public class AlgorithmP1 {
 
 
+    // switches values, first methdd
     // i is value1, j value2
     public void switchValues(int i,int j){
         if (i != j){
@@ -22,6 +23,7 @@ public class AlgorithmP1 {
         System.out.println("Value1: " + i + " Value2: " + j);
     }
 
+    // second method
     public int[][] rotateArray(int arr[][]){
         int xy = arr.length;
         // 1 2 3    7 4 1
@@ -45,6 +47,7 @@ public class AlgorithmP1 {
         return arr;
     }
 
+    // third method, recursion.
     public int size(List<String> list,String parameter){
         int a = list.size();
         AtomicInteger c = new AtomicInteger();
