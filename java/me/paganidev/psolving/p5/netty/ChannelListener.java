@@ -31,4 +31,5 @@ public class ChannelListener extends ChannelDuplexHandler {
     public void setName(String name) {
         this.name = name;
     }
+    
 }
