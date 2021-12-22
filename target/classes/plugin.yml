@@ -1,0 +1,4 @@
+name: JobTest
+main: me.paganidev.psolving.p5.Plugin
+version: 1.0.0
+api-version: 1.17
